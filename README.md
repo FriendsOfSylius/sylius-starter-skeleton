@@ -57,7 +57,7 @@ castor sylius:init --no-interaction \
 | File                    | Role                                                                    |
 |-------------------------|-------------------------------------------------------------------------|
 | `castor.php`            | Your stack: Castor context, and the services `sylius:init` registers    |
-| `castor.composer.json`  | The Castor plugins of the project (`sylius-starter/sylius-starter`)     |
+| `castor.composer.json`  | The Castor plugins of the project (the `sylius-starter/*` packages)     |
 | `.castor/tasks/init.php`| The `sylius:init` task, removed once the project is created             |
 | `.castor/tasks/qa.php`  | `castor qa`: audit, linters, ECS, PHPStan, PHPUnit (and Behat)          |
 | `.github.dist/`         | CI of the project: quality checks, Docker build cache, Dependabot       |
