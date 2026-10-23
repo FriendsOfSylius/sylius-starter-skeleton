@@ -1,11 +1,12 @@
 {
     "require": {
-        "sylius-starter/sylius-starter": "@dev"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/sylius-starter/sylius-starter.git"
-        }
-    ]
+        "sylius-starter/b2b": "@dev",
+        "sylius-starter/core": "@dev",
+        "sylius-starter/datasets": "@dev",
+        "sylius-starter/import": "@dev",
+        "sylius-starter/menu": "@dev",
+        "sylius-starter/plugins": "@dev",
+        "sylius-starter/themes": "@dev",
+        "sylius-starter/upsun": "@dev"
+    }
 }
