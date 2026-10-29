@@ -26,9 +26,9 @@ castor list                               # every task
 
 ## Prefer the Sylius Starter tasks
 
-To add or remove a plugin, a payment gateway or a theme, hide admin menu items or enable B2B features, use the
-`castor sylius:*` tasks instead of editing the application by hand: they install, configure, migrate and clean up
-in one deterministic step. `castor list sylius` lists them.
+To add or remove a plugin or a theme, or hide admin menu items, use the `castor sylius:*` tasks instead of
+editing the application by hand: they install, configure, migrate and clean up in one deterministic step.
+`castor list sylius` lists them.
 
 ## Before handing over
 

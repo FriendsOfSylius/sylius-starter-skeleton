@@ -1,6 +1,5 @@
 {
     "require": {
-        "sylius-starter/b2b": "@dev",
         "sylius-starter/core": "@dev",
         "sylius-starter/datasets": "@dev",
         "sylius-starter/import": "@dev",

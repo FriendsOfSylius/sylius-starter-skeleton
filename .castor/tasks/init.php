@@ -100,7 +100,7 @@ function finalize(): void
 
     io()->listing([
         '<info>castor docker:about</info>: the URLs of your project (admin: <comment>/admin</comment>, login <comment>sylius</comment> / <comment>sylius</comment>)',
-        '<info>castor sylius:add</info>, <info>castor sylius:theme:setup</info>, <info>castor sylius:payment-gateways:setup</info>…: shape your store',
+        '<info>castor sylius:add</info>, <info>castor sylius:theme:setup</info>, <info>castor sylius:menu:remove</info>…: shape your store',
         '<info>castor qa</info>: run the quality checks',
         '<info>castor list</info>: every available task',
     ]);
