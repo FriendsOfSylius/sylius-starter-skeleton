@@ -42,9 +42,7 @@ The Sylius application lives in [`app/`](app/), the stack is described in [`cast
 | `castor sylius:add <plugin>…`                | Install Sylius plugins (CMS, invoicing, refund…) |
 | `castor sylius:remove <plugin>…`             | Remove Sylius plugins                            |
 | `castor sylius:theme:setup <theme>`          | Switch the storefront theme                      |
-| `castor sylius:payment-gateways:setup <gw>…` | Set up Mollie, PayPal, Stripe…                   |
 | `castor sylius:menu:remove <item>…`          | Hide admin menu items                            |
-| `castor sylius:b2b:enable <feature>…`        | Enable B2B features                              |
 | `castor sylius:import:*`                     | Import a catalog (AI generated or from a site)   |
 | `castor sylius:upsun:check`                  | Check the Upsun deployment configuration         |
 
